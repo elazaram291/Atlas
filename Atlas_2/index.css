@@ -1,0 +1,43 @@
+
+header {
+    background: rgb(144, 144, 149);
+    min-height: 60px;
+    
+}
+
+header nav h2 {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header nav .links a {
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 1.1em;
+    font-weight: bold   ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header nav .links a:hover {
+    color: rgb(95, 61, 61);
+    transform: scale(1.2);
+}
+
+main {
+    background-image: url(image/Bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 850px;
+    
+}
+
+@media (max-width:768px) {
+    main {
+        background-attachment: scroll;
+    }
+
+
+
+}
